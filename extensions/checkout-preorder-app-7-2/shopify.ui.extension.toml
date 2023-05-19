@@ -2,7 +2,7 @@ type = "checkout_ui_extension"
 name = "checkout-preorder-app-7.2"
 
 extension_points = [
-  'Checkout::Dynamic::Render'
+  'Checkout::CartLineDetails::RenderAfter'
 ]
 
 # [[metafields]]
