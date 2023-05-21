@@ -2,7 +2,7 @@ type = "checkout_ui_extension"
 name = "checkout-preorder-app-7.2"
 
 extension_points = [
-  'Checkout::CartLineDetails::RenderAfter'
+  'Checkout::Dynamic::Render'
 ]
 
 # [[metafields]]
@@ -20,3 +20,10 @@ extension_points = [
 #   type = "single_line_text_field"
 #   name = "Banner title"
 #   description = "Enter a title for the banner"
+
+
+
+#---------------------------#
+
+[capabilities]
+api_access = true
